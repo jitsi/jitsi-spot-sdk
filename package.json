@@ -1,0 +1,47 @@
+{
+  "name": "jitsi-spot-sdk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jitsi/jitsi-spot-sdk.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jitsi/jitsi-spot-sdk/issues"
+  },
+  "homepage": "https://github.com/jitsi/jitsi-spot-sdk#readme",
+  "dependencies": {
+    "eventemitter3": "4.0.0",
+    "jitsi-meet-logger": "github:jitsi/jitsi-meet-logger#5da3033d647054457597920252b3387fa43a17fa",
+    "jitsi-meet-redux": "github:jitsi/jitsi-meet-redux#56bd059b64d0aa73a9309f57bf69bbaef3df7991",
+    "lodash": "4.17.15",
+    "react-native-beacons-manager": "github:jitsi/react-native-beacons-manager#86847b7de89dc3c1142d68b1ce24c9ff32d734e0",
+    "react-native-push-notification": "3.1.9",
+    "react-redux": "7.1.1",
+    "redux": "4.0.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.138",
+    "@types/node": "12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-redux": "^7.1.2",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-svg": "9.9.5",
+    "react-native-svg-transformer": "^0.13.0",
+    "react-native-webview": "7.4.0",
+    "typescript": "3.6.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-webview": "*"
+  }
+}
