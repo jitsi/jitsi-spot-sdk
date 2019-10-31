@@ -13,23 +13,19 @@ class SpotSDK extends EventEmitter {
     /**
      * Getter for the config properties of the SDK.
      */
-    private get config(): Config {
-        if (!this.config) {
+    public get config(): Config {
+        if (!this._config) {
             logger.info('Default config is used.');
-            this.config = new Config();
+            this._config = new Config();
         }
 
-        return this.config;
+        return this._config;
     }
 
     /**
-     * Setter for the config properties of the SDK.
-     *
-     * @param {Config} config - the new config object.
+     * Config properties of the SDK.
      */
-    private set config(config: Config) {
-        this.config = config;
-    }
+    private _config?: Config;
 
     /**
      * {@code SpotDeviceEventEmitter} instance to detect nearby devices.
@@ -55,7 +51,7 @@ class SpotSDK extends EventEmitter {
      * @return {void}
      */
     public initialize(config: Config): void {
-        this.config = config;
+        this._config = config;
     }
 
     /**
