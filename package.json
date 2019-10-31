@@ -49,5 +49,5 @@
     "build": "rm -rf lib && tsc",
     "lint": "eslint --ext .ts,.tsx ./src"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
