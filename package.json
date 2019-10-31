@@ -47,7 +47,8 @@
   },
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "lint": "eslint --ext .ts,.tsx ./src"
+    "lint": "eslint --ext .ts,.tsx ./src",
+    "prepare": "npm run build"
   },
   "version": "0.1.1"
 }
