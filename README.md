@@ -48,7 +48,7 @@ Put the SDK initializer code to a part of your app that runs early enough (e.g. 
 
 ```
 // Optional
-SpotSDK.config = new Config({ /* config values come here, if needed */});
+SpotSDK.initialize(new Config({ /* config values come here, if needed */}));
 // Optional
 SpotSDK.startDeviceDetection();
 ```
