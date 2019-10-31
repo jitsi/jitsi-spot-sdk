@@ -33,7 +33,7 @@
   },
   "license": "Apache-2.0",
   "main": "./lib/index",
-  "name": "@jitsi/jitsi-spot-sdk",
+  "name": "@jitsi/spot-sdk",
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
